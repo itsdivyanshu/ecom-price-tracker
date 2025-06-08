@@ -1,0 +1,72 @@
+# Secrets
+.env
+.env.local
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Database
+*.db
+migrations/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Development
+*.swp
+*.swo
+*~
+
+# Environment
+.python-version
+.env.test
+.env.prod
+
+# Logs
+logs/
+*.log.*
+npm-debug.log*
+
+# Dependencies
+node_modules/
+bower_components/
